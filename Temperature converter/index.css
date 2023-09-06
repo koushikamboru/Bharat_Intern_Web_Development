@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background:linear-gradient(45deg, #3498db, #e74c3c);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0; 
+}
+
+.container {
+    width: 80%;
+    background-color: #ffffff23;
+    max-width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    
+}
+
+h1 {
+    text-align: center;
+    color: #000000;
+}
+input[type="number"],select{
+    background-color: #ffffff48;
+}
+.temp,
+.From_temp,
+.To_temp,
+.result {
+    margin: 10px 0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+label {
+    flex: 1;
+    margin-right: 10px;
+}
+
+input[type="number"],
+select {
+    flex: 2;
+    padding: 10px;
+    border: 1px solid #ffffff00;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover {
+    width: 100%;
+    padding: 10px;
+    background:linear-gradient(16deg,#0099ff, #e74d3c63);
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.result-box {
+ 
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+
