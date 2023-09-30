@@ -1,0 +1,117 @@
+/* Reset some default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+}
+
+/* Style the hero section */
+.hero {
+    background-image: url('Jailer.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+/* Style the Sign Up button */
+.hero-content button {
+    background-color: #e50914;
+    color: #fff;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/*trail*/
+.trail {
+    background-image: url('unlimited.jpg');
+    opacity: 90%;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    text-align: center;
+    padding: 100px 0;
+    position: relative; /* Make sure the section is a positioned container */
+}
+
+/* Add a black overlay with opacity */
+.trail::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000; /* Black background color */
+    opacity: 0.8; /* Adjust the opacity as needed */
+    z-index: -1; /* Place the overlay behind the content */
+}
+
+.trail-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.trail-content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+
+}
+
+/* Style the Sign Up button */
+.trail-content button {
+    background-color: #e50914;
+    color: #fff;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style the footer */
+footer {
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
